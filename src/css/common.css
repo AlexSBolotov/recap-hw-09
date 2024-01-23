@@ -16,3 +16,44 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer-wrapper {
+  text-align: center;
+  padding-top: 40px;
+}
+.timer-wrapper > input {
+  border: solid;
+  border-radius: 4px;
+  height: 32px;
+  padding-left: 10px;
+}
+.timer-wrapper > button {
+  height: 32px;
+  width: 56px;
+}
+.timer-wrapper .timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+
+  justify-content: center;
+}
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.field .value {
+  display: flex;
+  width: 80px;
+  height: 100px;
+  font-size: 48px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #212121;
+  border-radius: 4px;
+}
+.field .label {
+  font-size: 16px;
+  text-transform: uppercase;
+}
